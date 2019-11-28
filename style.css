@@ -1,16 +1,61 @@
-h1 {
-    color: blue;
+background {
 
 }
-
-p{
-    color: coral;
-}
-
 
 body{
-    background: crimson;
+    background-color: rgb(247, 217, 217);
+    margin: 0;
+    background-image: url("tausta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
-h2{
-    color: darkgray;
+.header{
+    background-color: black;
+
 }
+
+h1{
+    color: white;
+}
+
+.header-left{
+    width: 30%;
+    display: inline-block;
+}
+.header-right{
+    width: 74%;
+    display: inline-block;
+    text-align: right;
+}
+.menu-item{
+    display: inline-block;
+    color: white;
+}
+
+.special{
+    border: 1px solid lightgray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.content-left {
+width: 17%;
+display: inline-block;
+vertical-align: top;
+}
+
+.content-right {
+    width: 83%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer{
+    background-color: rosybrown;
+    height: 80px;
+    color: white ;
+}
+    
