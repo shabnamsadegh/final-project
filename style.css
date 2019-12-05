@@ -1,18 +1,17 @@
-background {
 
-}
 
 body{
     background-color: rgb(247, 217, 217);
     margin: 0;
-    background-image: url("tausta.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-blend-mode: overlay;
+  
 }
+
+
+
 .header{
     background-color:rosybrown;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
@@ -23,37 +22,57 @@ h1{
 .header-left{
     width: 30%;
     display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    
 }
 .header-right{
-    width: 74%;
+    width: 60%;
     display: inline-block;
     text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .menu-item{
     display: inline-block;
     color: white;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .special{
     border: 1px solid lightgray;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+   
 }
 
 
 
 .content-left {
-width: 17%;
+width: 20%;
 display: inline-block;
 vertical-align: top;
+box-sizing: border-box;
+
+
+
 }
 
 .content-right {
-    width: 45%;
+    width: 80%;
     display: inline-block;
-    vertical-align: top;
     text-align: left;
-    border-left-width: 20px;
+    background-image: url("tausta.jpg");
+    border-top-left-radius: 30px;
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+    
 }
 
 .footer{
