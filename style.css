@@ -64,6 +64,7 @@ box-sizing: border-box;
     display: inline-block;
     text-align: left;
     background-image: url("tausta.jpg");
+
     border-top-left-radius: 30px;
     border-left: 10px solid black;
     border-top: 10px solid black;
@@ -72,6 +73,7 @@ box-sizing: border-box;
     background-attachment: fixed;
     padding: 10px;
     box-sizing: border-box;
+    image-
     
 }
 
