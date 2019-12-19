@@ -3,13 +3,16 @@
 body{
     background-color: rgb(241, 191, 191);
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+
   
 }
 
 
 
 .header{
-    background-color:rosybrown;
+    background-color:rgb(202, 153, 153);
     padding: 20px;
     box-sizing: border-box;
 
@@ -50,32 +53,45 @@ h1{
 
 
 .content-left {
-width: 10%;
+width: 15%;
 display: inline-block;
 vertical-align: top;
 box-sizing: border-box;
+font-weight: bold;
 
 
 
 }
 
 .content-right {
-    width: 90%;
+    width: 85%;
     display: inline-block;
     text-align: left;
-    background-image: url("tausta.jpg");
-
     border-top-left-radius: 30px;
-    border-left: 10px solid black;
-    border-top: 10px solid black;
+    border-left: 10px solid  darkgrey;
+    border-top: 10px solid darkgrey;
     box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
     padding: 10px;
     box-sizing: border-box;
-    image-
+    position: relative; 
+
     
 }
+
+.content-right::after {
+    content: "";
+    background: url("tausta.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
 
 .footer{
     background-color: rosybrown;
