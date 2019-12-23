@@ -5,6 +5,7 @@ body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16;
+    
 
   
 }
@@ -15,6 +16,7 @@ body{
     background-color:rgb(202, 153, 153);
     padding: 20px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -27,6 +29,7 @@ h1{
     display: inline-block;
     padding: 1px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .header-right{
@@ -35,18 +38,21 @@ h1{
     text-align: right;
     padding: 10px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu-item{
     display: inline-block;
     color: white;
     padding: 10px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .special{
-    border: 1px solid lightgray;
+    border: 1px solid rgb(201, 207, 233);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
 
@@ -58,6 +64,7 @@ display: inline-block;
 vertical-align: top;
 box-sizing: border-box;
 font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 
@@ -68,15 +75,17 @@ font-weight: bold;
     display: inline-block;
     text-align: left;
     border-top-left-radius: 30px;
-    border-left: 10px solid  darkgrey;
-    border-top: 10px solid darkgrey;
+    border-left: 10px solid  rgb(178, 183, 201);
+    border-top: 10px solid rgb(178, 183, 201);
     box-sizing: border-box;
 
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
     position: relative; 
-
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image {
+    border-radius: 30px 
 }
 
 .content-right::after {
@@ -97,5 +106,6 @@ font-weight: bold;
     background-color: rosybrown;
     height: 20px;
     color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
