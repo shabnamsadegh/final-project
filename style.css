@@ -5,6 +5,7 @@ body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16;
+    color: darkslategray;
     
 
   
@@ -17,11 +18,22 @@ body{
     padding: 20px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    text-shadow: 2px 1px lightgray;
 }
 
 h1{
-    color: white;
+    color: whitesmoke;
+    text-shadow: 2px 1px lightgray;
+}
+
+h2{
+    color: darkslategray;
+    text-shadow: 2px 1px lightgray;
+}
+h6{
+    color: darkslategray;
+    text-shadow: 2px 1px lightgray;
+    font-size: 12px;
 }
 
 .header-left{
@@ -30,6 +42,8 @@ h1{
     padding: 1px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
+    font-size: 20px;
     
 }
 .header-right{
@@ -39,6 +53,10 @@ h1{
     padding: 10px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    text-shadow: 2px 1px lightgray;
+    font-size: 17px;
+    
 }
 .menu-item{
     display: inline-block;
@@ -46,13 +64,15 @@ h1{
     padding: 10px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
 }
 
 .special{
-    border: 1px solid rgb(201, 207, 233);
+    border: 1px solid rgb(191, 197, 224);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
    
 }
 
@@ -65,8 +85,11 @@ vertical-align: top;
 box-sizing: border-box;
 font-weight: bold;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
+text-align: initial;
+color: darkslategray;
+text-shadow: 2px 1px lightgray;
+font-size: 12px;
+padding: 20px 20px 20px 20px;
 
 }
 
@@ -75,14 +98,15 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     text-align: left;
     border-top-left-radius: 30px;
-    border-left: 10px solid  rgb(178, 183, 201);
-    border-top: 10px solid rgb(178, 183, 201);
+    border-left: 10px solid  rgb(171, 176, 197);
+    border-top: 10px solid  rgb(171, 176, 197);
     box-sizing: border-box;
 
-    padding: 30px;
+    padding: 40px 90px 0px 40px;
     box-sizing: border-box;
     position: relative; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
 }
 .image {
     border-radius: 30px 
@@ -108,4 +132,16 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+a:link {
+    text-decoration: none;
+    color: darkslategray;
+    text-shadow: 2px 1px lightgray;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: darkslategray;
+    text-shadow: 2px 1px lightgray;
+  }
     
