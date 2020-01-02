@@ -1,24 +1,75 @@
 
 
 body{
-    background-color: rgb(241, 191, 191);
+    background-color: rgb(238, 189, 189);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16;
     color: darkslategray;
-    
-
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 
+    .
+    animation: colorchange 20s; /* animation-name followed by duration in seconds*/
+           /* you could also use milliseconds (ms) or something like 2.5s */
+        -webkit-animation: colorchange 20s; /* Chrome and Safari */
+      }
   
+      @keyframes colorchange
+      {
+        0%   {background: rgb(231, 198, 198);}
+        25%  {background:  rgb(247, 218, 218);}
+        50%  {background:rgb(240, 235, 235);}
+        75%  {background: rgb(252, 242, 242);}
+        100% {background: rgb(230, 187, 187);}
+      }
+  
+      @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+      {
+        0%   {background: rgb(231, 198, 198);}
+        25%  {background:  rgb(247, 218, 218);}
+        50%  {background:rgb(240, 235, 235);}
+        75%  {background: rgb(252, 242, 242);}
+        100% {background: rgb(230, 187, 187);}
+      }
+    
 }
 
 
 
 .header{
-    background-color:rgb(202, 153, 153);
+    background-color:rgb(238, 189, 189);
+    color: white;
+    text-decoration: none;
+    
     padding: 20px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 1px lightgray;
+    .
+    animation: colorchange 20s; /* animation-name followed by duration in seconds*/
+           /* you could also use milliseconds (ms) or something like 2.5s */
+        -webkit-animation: colorchange 20s; /* Chrome and Safari */
+      }
+  
+      @keyframes colorchange
+      {
+        0%   {background: rgb(231, 198, 198);}
+        25%  {background:  rgb(247, 218, 218);}
+        50%  {background:rgb(240, 235, 235);}
+        75%  {background: rgb(252, 242, 242);}
+        100% {background: rgb(230, 187, 187);}
+      }
+  
+      @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+      {
+        0%   {background: rgb(231, 198, 198);}
+        25%  {background:  rgb(247, 218, 218);}
+        50%  {background:rgb(240, 235, 235);}
+        75%  {background: rgb(252, 242, 242);}
+        100% {background: rgb(230, 187, 187);}
+      }
 }
 
 h1{
@@ -29,6 +80,7 @@ h1{
 h2{
     color: darkslategray;
     text-shadow: 2px 1px lightgray;
+    
 }
 h6{
     color: darkslategray;
@@ -44,13 +96,17 @@ h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 1px lightgray;
     font-size: 20px;
+    color: white;
+
+
+    
     
 }
 .header-right{
     width: 60%;
     display: inline-block;
     text-align: right;
-    padding: 10px;
+    padding: 35px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkslategray;
@@ -68,38 +124,41 @@ h6{
 }
 
 .special{
-    border: 1px solid rgb(191, 197, 224);
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
+    border: 3px solid rgb(191, 197, 224);
+    padding: 10px 12px 10px 12px;
+    border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 1px lightgray;
-   
+    color: rgb(191, 197, 224);
+   text-align: center;
 }
 
 
 
 .content-left {
-width: 15%;
+width: 10%;
 display: inline-block;
 vertical-align: top;
 box-sizing: border-box;
 font-weight: bold;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: initial;
-color: darkslategray;
+color: white;
 text-shadow: 2px 1px lightgray;
 font-size: 12px;
-padding: 20px 20px 20px 20px;
-
+padding: 210px 10px 20px 0px;
+text-align: center;
 }
 
-.content-right {
-    width: 85%;
+.content-center {
+    width: 80%;
     display: inline-block;
     text-align: left;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     border-left: 10px solid  rgb(171, 176, 197);
     border-top: 10px solid  rgb(171, 176, 197);
+    border-right: 10px solid  rgb(171, 176, 197);
     box-sizing: border-box;
 
     padding: 40px 90px 0px 40px;
@@ -108,14 +167,45 @@ padding: 20px 20px 20px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 1px lightgray;
 }
+
+.content-right {
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: initial;
+    color: white;
+    text-shadow: 2px 1px lightgray;
+    font-size: 12px;
+    padding: 210px 10px 20px 0px;
+    text-align: center;
+    }
 .image {
     border-radius: 30px 
+    
 }
+
+.photos{
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 5px;
+    width: 150px;
+}
+.photos:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+    
+
+
 
 .content-right::after {
     content: "";
-    background: url("tausta.jpg");
-    opacity: 0.5;
+    background: url("tausta2.jpg");
+    opacity: 0.55;
     top: 0;
     left: 0;
     bottom: 0;
@@ -126,23 +216,365 @@ padding: 20px 20px 20px 20px;
     background-attachment: fixed; 
   }
 
+  /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 5;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    color:gray;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 30%;
+   
+    overflow: auto;
+    background-color:transparent;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 30%;
+    max-width: 800px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color:gray;
+    position: right;
+    top: 5px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgb(231, 231, 231);
+    opacity: 0.8;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: grey;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container  --- not in use {
+    text-align: center;
+    background-color: silver;
+    padding: 1px 1px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  
+  .demo {
+    opacity: 2.0;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+    border-radius: 30px;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+//Lightbox
+* {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 20%;
+    overflow: auto;
+    background-color:transparent;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color:transparent;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: grey;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-tshrough */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+    border-radius: 30px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: silver;
+    padding: 0px 0px;
+    color: white;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+    border-radius: 30px;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 1px 2px 2px 1px silver,  3px 3px 3px 3px silver;
+    opacity: 0.2;
+  }
+  
+
+
+
+
 .footer{
-    background-color: rosybrown;
-    height: 20px;
+    background-color: transparent;
+    height: 5px;
     color: white ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
 }
 
 a:link {
-    text-decoration: none;
-    color: darkslategray;
-    text-shadow: 2px 1px lightgray;
+    text-decoration: none
+    color:rgb(191, 197, 224);
+    text-shadow: 2px 1px white;
+    
+    
   }
   
   a:visited {
     text-decoration: none;
-    color: darkslategray;
-    text-shadow: 2px 1px lightgray;
+    color:rgb(191, 197, 224);
+    text-shadow: 2px 1px black;
   }
     
   div.photos {
@@ -155,5 +587,107 @@ a:link {
   
   }
 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color:gray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
 
+
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent; /* Fallback color */
+    background-color: transparent; /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+   
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
   }
