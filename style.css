@@ -6,11 +6,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16;
     color: grey;
-    padding: 20px;
+    text-shadow: 2px 1px lightgray;
     box-sizing: border-box;
     text-align: justify;
     text-justify: inter-word;
-    text-shadow: 
+    
     .
     animation: colorchange 15s; /* animation-name followed by duration in seconds*/
            /* you could also use milliseconds (ms) or something like 2.5s */
@@ -83,11 +83,13 @@ h2{
     text-shadow: 2px 1px lightgray;
     
 }
-h6{
-    color: grey;
-    text-shadow: 2px 1px lightgray;
-    font-size: 12px;
+
+h3{
+  color: grey;
+  text-shadow: 2px 1px lightgray;
+  
 }
+
 
 .header-left{
     width: 0%;
@@ -108,13 +110,13 @@ h6{
     display: inline-block;
     text-align: right;
 
-    padding: 20px;
+
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(171, 176, 197);
     text-shadow: 2px 1px lightgray;
     font-size: 17px;
-    padding: 25px 10px 10px 250px;
+    padding: 40px 10px 10px 250px;
     
 }
 .menu-item{
@@ -124,6 +126,7 @@ h6{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: ;
+    font-size: 12;
 }
 
 .special{
@@ -133,6 +136,8 @@ h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(171, 176, 197); 
    text-align: center;
+   text-shadow: 2px 1px lightgray;
+   font-size: 12;
 }
 
 
@@ -146,7 +151,7 @@ font-weight: bold;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: justify;
 text-justify: inter-word;
-color: white;
+color: rgb(171, 176, 197);
 text-shadow: 2px 1px lightgray;
 font-size: 12px;
 padding: 210px 10px 20px 0px;
@@ -170,6 +175,7 @@ text-align: center;
     box-sizing: border-box;
     position: relative; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 1px lightgray;
     
 }
 
@@ -182,18 +188,29 @@ text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     text-justify: inter-word;
-    color: white;
+    color: rgb(171, 176, 197);
     text-shadow: 2px 1px lightgray;
     font-size: 12px;
     padding: 210px 10px 20px 0px;
     text-align: center;
     }
 
+  .text {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 30px 60px 30px 60px;
+    text-shadow: 2px 1px lightgray;
+    color: ;
+  }
+
   .CV {
 text-align: justify;
+padding: 30px 70px 30px 110px;
+
 
 .introduction {
-  text-align: justify-content: letter-spacing; 
+  text-align: justify-content: 
+  text-shadow: 2px 1px lightgray;
 }
 
   }
@@ -237,6 +254,7 @@ text-align: justify;
     padding: 10px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     float: right;
   }
   
@@ -273,7 +291,7 @@ text-align: justify;
   }*/
   
   /* Closable button inside the expanded image - what is this? is thi sneeded? */
-  .closebtn {
+  /*.closebtn {
     position: absolute;
     top: 70px;
     right: 70px;
@@ -281,7 +299,7 @@ text-align: justify;
     font-size: 35px;
     cursor: pointer;
     z-index: 9;
-  }
+  } */
 
   * {
     box-sizing: border-box;
@@ -290,6 +308,7 @@ text-align: justify;
   .row > .column {
     padding: 0 8px;
     display: flex;
+    
     justify-content: center;
   }
   
@@ -306,7 +325,7 @@ text-align: justify;
   }
   
   /* The Modal (background) */
-  .modal {
+  /*.modal {
     display: none;
     position: fixed;
     z-index: 9;
@@ -317,8 +336,8 @@ text-align: justify;
     height: 30%;
    
     overflow: auto;
-    background-color:transparent;
-  }
+    background-color: blue;
+  } */
   
   /* Modal Content */
   /*.modal-content {
@@ -341,12 +360,12 @@ text-align: justify;
     z-index: 9;
   } */
   
-  .close:hover,
+  /*.close:hover,
   .close:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
-  }
+  }*/
   
  
   
@@ -384,7 +403,7 @@ text-align: justify;
     opacity: 0.8;
   }
   
-  /* Number text (1/3 etc) */
+  /* Number text (1/3 etc) -DO NOT REMOVE */
   .numbertext {
     color: grey;
     font-size: 12px;
@@ -441,7 +460,7 @@ text-align: justify;
   }
   
   /* The Modal (background) */
-  .modal {
+  /*.modal {
     display: none;
     position: fixed;
     z-index: 9;
@@ -451,8 +470,8 @@ text-align: justify;
     width: 20%;
     height: 20%;
     overflow: auto;
-    background-color:transparent;
-  }
+    background-color: orange;
+  } */
   
   /* Modal Content */
   /*.modal-content {
@@ -474,17 +493,16 @@ text-align: justify;
     font-weight: bold;
   } */
   
-  .close:hover,
+  /*  .close:hover,
   .close:focus {
-    color:greenyellow;
+    color:blue;
     text-decoration: none;
     cursor: pointer;
-  }
+  } */
   
   .mySlides {
     display: block;
     height: 80%;
-    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -497,7 +515,7 @@ text-align: justify;
   }
   
   /* Next & previous buttons - this seems to be the right one  */
-  .prev,
+  /*.prev,
   .next {
     background: yellow;
     cursor: pointer;
@@ -512,19 +530,46 @@ text-align: justify;
     user-select: none;
     -webkit-user-select: none;
     display: flex;
-  }
+    
+  } */
   
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+    background:blue;
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    display: flex;
+  } 
 
     /* Position the "next button" to the left */
     .prev {
       left: 0;
       border-radius: 3px 0 0 3px;
-    }
+      background:green;
+      cursor: pointer;
+      position: absolute;
+      width: auto;
+      padding: 16px;
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 3px 3px 3px 3px;
+      user-select: none;
+      -webkit-user-select: none;
+      display: flex;
+    } 
 
   
   /* On hover, add a black background color with a little bit see-tshrough - what is this ? check */
@@ -574,17 +619,18 @@ text-align: justify;
 
 
 .footer{
-    background-color: greenyellow;
+    background-color: transparent;
     color:rgb(171, 176, 197) ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 1px lightgray;
-    text-align: right;
+   
+    text-align: center;
 }
 
 a:link {
     text-decoration: none;
     color: rgb(171, 176, 197);
-    text-shadow: ;
+    text-shadow: 2px 1px lightgray;
     
     
   }
@@ -643,8 +689,8 @@ a:link {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: transparent; /* Fallback color */
-    background-color: transparent; /* Black w/ opacity */
+    background-color: white; /* Fallback color */
+    background-color: lightcoral; /* Black w/ opacity */
   }
   
   /* THis is correct for the slide show-  Modal Content (image) this the the useless backgroung for the pics*/
@@ -664,12 +710,13 @@ a:link {
   }
   
   /* Add Animation - what is this ? is it needed */
-  .modal-content, #caption {  
+  /*.modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
+  }*/
+
   
   @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
@@ -691,14 +738,17 @@ a:link {
     font-weight: bold;
     transition: 0.3s;
     z-index: 9;
-  }
   
-  .close:hover
-  .close:focus {
-    color: turquoise;
     text-decoration: none;
     cursor: pointer;
   }
+  
+ /* .close:hover
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } */
   
   /* 100% Image Width on Smaller Screens -  what is this ?*/
   @media only screen and (max-width: 700px){
@@ -706,3 +756,5 @@ a:link {
       width: 100%;
     }
   }
+
+ 
