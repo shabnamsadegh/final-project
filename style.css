@@ -488,6 +488,9 @@ a:link {
       background-color: none; /* Fallback color */
       background-color:rgb(171, 176, 197); /*  */
       border-radius: 30px;
+      
+
+
   }
   
   /* updated 20.1.2020 -  slide show-  Modal Content (image) this the the useless backgroung for the pics*/
@@ -499,29 +502,15 @@ a:link {
     position: relative;
     margin: auto;
     padding: 0;
+    position: sticky;
 }
   
-  /*Updated 20.1.2020 - Caption of Modal Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-   
-  }
+/* Sticky image - pop up image sshould be shown when scrolling <img class="sticky"> Photography */
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
   
-  /* Updated 20.1.2020-  Add Animation - what is this ? is it needed */
-  .modal-content, #caption {  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-
+}
   
   @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
