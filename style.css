@@ -278,7 +278,7 @@ padding: 30px 70px 30px 110px;
   /* The expanding image container */
   .container {
     position: relative;
-    display: none;
+    
   }
   
   /* not needed- Expanding image text */
@@ -535,40 +535,27 @@ padding: 30px 70px 30px 110px;
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    background:blue;
-    cursor: pointer;
+    background-color: black;
+    color: white;
     position: absolute;
-    width: auto;
-    padding: 16px;
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 3px 3px 3px 3px;
-    user-select: none;
-    -webkit-user-select: none;
-    display: flex;
+    text-decoration: none;
+    width: 50px;
+    top:230px;
+    right: 30%;
+
+    
+    
   } 
 
     /* Position the "next button" to the left */
     .prev {
-      left: 0;
-      border-radius: 3px 0 0 3px;
-      background:green;
-      cursor: pointer;
+      background-color: black;
+      color: white;
       position: absolute;
-      width: auto;
-      padding: 16px;
-      color: red;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 3px 3px 3px 3px;
-      user-select: none;
-      -webkit-user-select: none;
-      display: flex;
+      text-decoration: none;
+      width: 50px;
+      top:230px;
+
     } 
 
   
@@ -678,44 +665,52 @@ a:link {
   
   #myImg:hover {opacity: 0.7;}
   
-  /* The Modal (background) */
+  /*updated 20.1.2020-  The Modal (background) - */
   .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 9; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: white; /* Fallback color */
-    background-color: lightcoral; /* Black w/ opacity */
+    
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
   }
   
-  /* THis is correct for the slide show-  Modal Content (image) this the the useless backgroung for the pics*/
+  /* updated 20.1.2020 - THis is correct for the slide show-  Modal Content (image) this the the useless backgroung for the pics*/
   .modal-content {
     margin: auto;
     display: block;
-    width: 200px;
-    background:plum;
-    position: relative;
-    padding: 0;
-    width: 200px;
+    width: 80%;
+    max-width: 700px;
+}
   }
   
-  /* Caption of Modal Image */
+  /*Updated 20.1.2020 - Caption of Modal Image */
   #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
    
   }
   
-  /* Add Animation - what is this ? is it needed */
-  /*.modal-content, #caption {  
+  /* Updated 20.1.2020-  Add Animation - what is this ? is it needed */
+  .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-  }*/
+  }
 
   
   @-webkit-keyframes zoom {
@@ -728,27 +723,25 @@ a:link {
     to {transform:scale(1)}
   }
   
-  /* The Close Button */
+  /* Updated 20.1.2020 - The Close Button */
   .close {
-    position: absolute;
-    top: 80px;
-    right: 300px;
-    color: violet;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-    z-index: 9;
-  
-    text-decoration: none;
-    cursor: pointer;
+      position: absolute;
+      top: 50px;
+      right: 350px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 9;
   }
   
- /* .close:hover
-  .close:focus {
-    color: black;
+ /* updated 20.1.2020*/
+.close:hover,
+.close:focus {
+    color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  } */
+  } 
   
   /* 100% Image Width on Smaller Screens -  what is this ?*/
   @media only screen and (max-width: 700px){
