@@ -9,6 +9,7 @@ body{
     text-align: justify;
     text-justify: inter-word;
     
+    
     .
     animation: colorchange 15s; /* animation-name followed by duration in seconds*/
            /* you could also use milliseconds (ms) or something like 2.5s */
@@ -115,6 +116,10 @@ h3{
     text-shadow: 2px 1px lightgray;
     font-size: 17px;
     padding: 45px 10px 10px 250px;
+
+    color:rgb(171, 176, 197) ;
+    text-decoration: none;
+
     
 }
 .menu-item{
@@ -136,6 +141,7 @@ h3{
    text-align: center;
    text-shadow: 2px 1px lightgray;
    font-size: 12;
+   letter-spacing: 2px;
 }
 
 
@@ -173,6 +179,7 @@ text-align: center;
     box-sizing: border-box;
     position: relative; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
     
     
 }
@@ -424,6 +431,8 @@ text-shadow: 2px 1px lightgray;
     text-align: center;
 }
 
+
+
 a:link {
     text-decoration: none;
     color: rgb(171, 176, 197);
@@ -432,10 +441,31 @@ a:link {
   
   a:visited {
     text-decoration: none;
-    color: rgb(171, 176, 197));
+    color: rgb(171, 176, 197);
     text-shadow: 2px 1px black;
   }
-    
+   /*new*/  
+
+   a:link:link{
+text-decoration: none;
+
+   }
+
+   a:link:visited{
+     text-decoration: none;
+   }
+
+  a:link:hover {
+    text-decoration: none;
+  }
+
+  a:link:active {
+text-decoration: none;
+  }
+  /*new*/
+
+
+
   div.photos {
    width: 30%;
    height: auto;
