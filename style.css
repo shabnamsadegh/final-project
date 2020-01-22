@@ -141,7 +141,7 @@ h3{
    text-align: center;
    text-shadow: 2px 1px lightgray;
    font-size: 12;
-   letter-spacing: 2px;
+   letter-spacing: px;
 }
 
 
@@ -179,7 +179,6 @@ text-align: center;
     box-sizing: border-box;
     position: relative; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 1px;
     
     
 }
