@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(241, 207, 207);
+    background-color: rgb(250, 231, 231);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16;
@@ -18,20 +18,20 @@ body{
   
       @keyframes colorchange
       {
-        0%   {background: rgb(231, 198, 198);}
+        0%   {background: rgb(250, 231, 231);}
         25%  {background:  rgb(247, 218, 218);}
         50%  {background:rgb(240, 235, 235);}
         75%  {background: rgb(252, 242, 242);}
-        100% {background: rgb(241, 207, 207);}
+        100% {background: rgb(250, 231, 231);}
       }
   
       @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
       {
-        0%   {background: rgb(231, 198, 198);}
+        0%   {background: rgb(250, 231, 231);}
         25%  {background:  rgb(247, 218, 218);}
         50%  {background:rgb(240, 235, 235);}
         75%  {background: rgb(252, 242, 242);}
-        100% {background: rgb(241, 207, 207);}
+        100% {background: rgb(250, 231, 231);}
       }
     
 }
@@ -39,7 +39,7 @@ body{
 
 
 .header{
-    background-color:rgb(241, 207, 207);
+    background-color:rgb(250, 231, 231);
     color:rgb(171, 176, 197);
     text-decoration: none;
     
@@ -55,20 +55,20 @@ body{
   
       @keyframes colorchange
       {
-        0%   {background: rgb(231, 198, 198);}
+        0%   {background: rgb(250, 231, 231);}
         25%  {background:  rgb(247, 218, 218);}
         50%  {background:rgb(240, 235, 235);}
         75%  {background: rgb(252, 242, 242);}
-        100% {background: rgb(241, 207, 207);}
+        100% {background: rgb(250, 231, 231);}
       }
   
       @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
       {
-        0%   {background: rgb(231, 198, 198);}
+        0%   {background:rgb(250, 231, 231);}
         25%  {background:  rgb(247, 218, 218);}
         50%  {background:rgb(240, 235, 235);}
         75%  {background: rgb(252, 242, 242);}
-        100% {background: rgb(241, 207, 207);}
+        100% {background: rgb(250, 231, 231));}
       }
 }
 
@@ -116,8 +116,6 @@ h3{
     text-shadow: 2px 1px lightgray;
     font-size: 17px;
     padding: 45px 10px 10px 250px;
-
-    color:rgb(171, 176, 197) ;
     text-decoration: none;
 
     
